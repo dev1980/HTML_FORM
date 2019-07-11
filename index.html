@@ -5,47 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
+
     <title>HTML Forms</title>
 </head>
 
 <body>
     <div class="wrapper">
+        <div class="logo">
         <div>
             <img src="image/intuit-logo-blue.png" alt="">
-        </div>
+        </div><br>
         <div>
             <img src="image/logo-mint-footer.png" alt="">
             <img src="image/logo-quickbooks.png" alt="">
             <img src="image/logo-turbotax.png" alt="">
         </div>
-
+        </div><br>
+<div class="form-container">
         <h2>Create an Intuit account</h2>
         <p>One account for everything Intuit, including Mint.<br /><a href="#">Learn more</a></p>
-        <form action="">
+        <form action="" class="form">
             <label for="email">Email address</label>
-            <input type="email">
+            <input type="email"><br><br>
             <label for="phone">Phone (recommended)</label>
             <input type="number">
-            <span><small>call, messaging or data rates may apply.</small></span>
+            <span><small class="terms">Standard call, messaging or data rates may apply.</small></span><br><br>
             <label for="password">Password</label>
-            <input type="password">
+            <input type="password" ><br>
+            <div class="button">
             <button class="btn">
-                        Create Account
+                <i class="fa fa-lock"></i>      Create Account
                 </button>
-
+            </div><br>
         </form>
 
 
         <p>
-            By clicking Create account, you agree to our<br />
-            <a href="#">Terms</a> and have read and acknowledge our<a href="#">Privacy <br />Statement.</a>
+            <i>By clicking Create account, you agree to our<br />
+            <a href="#">Terms</a> and have read and acknowledge our<a href="#">Privacy <br />Statement.</a></i>
         </p>
-
+</div>
     </div>
-
+    <br><br>
     <footer>
-
+        <p>Legal &nbsp;&nbsp;&nbsp;&nbsp;Privacy&nbsp;&nbsp;&nbsp;&nbsp;Security</p>
         &copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br> Terms, conditions, features, support, pricing and service options subject to change without notice.
     </footer>
 
