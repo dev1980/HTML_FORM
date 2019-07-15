@@ -5,11 +5,27 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.signup {
+    display: flex;
+    float: right;
+    flex-direction: row-reverse;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.signup p {
+    margin-top: 5px;}
+
+.signup button {
+    margin-top: 5px;
+}
+
 .wrapper {
     width: 400px;
     height: 600px;
     margin: 20px auto;
     text-align: center;
+    padding-top: 80px;
 }
 
 .form-container {
@@ -39,6 +55,10 @@ label {
     display: block;
     text-align: center;
     margin: 0 auto;
+}
+
+.btn1 {
+    height: 0px
 }
 
 .btn {
