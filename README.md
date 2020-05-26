@@ -1,5 +1,5 @@
 # HTML_FORM
-The objective was to re-build Mint.com's signup page .
+The objective was to re-build Mint.com's signup page.
 It's Part of Microverse Main Curriculum.
 Displaying and Inputting Data Project.
 
@@ -13,7 +13,7 @@ Displaying and Inputting Data Project.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/dev1980/HTML_FORM/issues)
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/dev1980/HTML_FORM/issues)
 
 1. Fork it (https://github.com/dev1980/HTML_FORM/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
@@ -44,4 +44,5 @@ This project is [MIT]() licensed.
 - [LinkedIn](https://www.linkedin.com/in/dev1980/)
 - [Twitter](https://twitter.com/MahatoBrham) 
 - <brham1980@gmail.com>.
+
 
